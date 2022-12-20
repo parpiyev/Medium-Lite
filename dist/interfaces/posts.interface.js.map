@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/interfaces/posts.interface.ts"],"sourcesContent":["import { IUser } from \"./users.interface\";\n\nexport interface IPost {\n  id: string;\n  title: string;\n  content: string;\n  author: string | IUser;\n  viewsAmount?: number;\n  likesAmount?: number;\n  createdAt: Date;\n}\n"],"names":[],"mappings":"AAAA"}

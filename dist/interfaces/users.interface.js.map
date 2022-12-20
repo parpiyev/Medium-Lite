@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/interfaces/users.interface.ts"],"sourcesContent":["export interface IUser {\n  id: string;\n  username: string;\n  password: string;\n}\n"],"names":[],"mappings":"AAAA"}
